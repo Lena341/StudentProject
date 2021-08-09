@@ -87,7 +87,7 @@ namespace StdProject
 
        private void about_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult messageBoxResult = MessageBox.Show("Eleni Kartsakli\nBuilt date: August 2021","About",MessageBoxButton.OK);
+            MessageBoxResult messageBoxResult = MessageBox.Show("Elena K.\nBuilt date: August 2021","About",MessageBoxButton.OK);
         }
 
         private void newMember_Click(object sender, RoutedEventArgs e)
