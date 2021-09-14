@@ -17,9 +17,6 @@ using System.Windows.Shapes;
 
 namespace StdProject
 {
-    /// <summary>
-    /// Interaction logic for Students.xaml
-    /// </summary>
     public partial class Students : Page
     {
         private string[] semesters = { "1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th" };
@@ -33,8 +30,8 @@ namespace StdProject
             MenuItem saveStudentMenuItem = new MenuItem(); //New MenuItem
             saveStudentMenuItem.Header = "Save Student details"; //The header 
             saveStudentMenuItem.Click += new RoutedEventHandler(addStudent_Click); //The RoutedEventHandler() is delegate that reprisents methods of working with events.
-                                                                                   //It calls the method addStudent_Click. 
-
+            //It calls the method addStudent_Click. 
+            
             MenuItem clearFormMenuItem = new MenuItem();
             clearFormMenuItem.Header = "Clear Form";
             clearFormMenuItem.Click += new RoutedEventHandler(clearStudent_Click);
