@@ -15,10 +15,7 @@ using System.Windows.Shapes;
 
 namespace StdProject
 {
-    /// <summary>
-    /// Interaction logic for About.xaml
-    /// </summary>
-    public partial class About : Page
+   public partial class About : Page
     {
         public About()
         {
